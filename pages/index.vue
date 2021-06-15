@@ -1,5 +1,5 @@
 <template>
-  <div class="container recursive-theme-text">
+  <div class="container recursive-theme-box">
     <div>
       <Logo />
       <h1 class="title">
@@ -40,6 +40,7 @@ export default Vue.extend({})
 }
 */
 .container {
+  @apply theme-box;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;

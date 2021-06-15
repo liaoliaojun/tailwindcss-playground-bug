@@ -1,5 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer components {
+@layer base {
   .theme-box {
     @apply text-blue-500 border-blue-500;
   }  

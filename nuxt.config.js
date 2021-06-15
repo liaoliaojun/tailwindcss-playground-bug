@@ -19,9 +19,9 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '~/assets/common.scss',
-  ],
+  // css: [
+  //   '~/assets/common.css',
+  // ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -38,14 +38,14 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
-  // tailwindcss: {
-  //   configPath: '~~/tailwind.config.js',
-  //   // cssPath: '~/assets/css/tailwind.scss',
-  //   // https://tailwindcss.nuxtjs.org/setup/#tailwind-just-in-time
-  //   // jit: true,
-  //   exposeConfig: true,
-  //   viewer: false,
-  // },
+  tailwindcss: {
+    // configPath: '~~/tailwind.config.js',
+    cssPath: '~/assets/common.css',
+    // https://tailwindcss.nuxtjs.org/setup/#tailwind-just-in-time
+    // jit: true,
+    // exposeConfig: true,
+    // viewer: false,
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
