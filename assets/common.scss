@@ -1,0 +1,10 @@
+
+@layer components {
+  .theme-box {
+    @apply text-blue-500 border-blue-500;
+  }  
+}
+.recursive-theme-box {
+  text-align: center;
+  @apply theme-box;
+}
